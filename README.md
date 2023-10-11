@@ -16,7 +16,9 @@ o	The local host layer is often referred to as the business logic layer. It is r
 •	Database (Data Access Layer):
 
 o	The database layer serves as the data access layer and is responsible for managing the storage, retrieval, and manipulation of data. In your SIS project, you mentioned using the JDBC driver, which connects your application to the database (e.g., PostgreSQL). This layer handles database interactions, including executing SQL queries, updating records, and ensuring data consistency and integrity.
+
 ![CLOUD](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/01687ed3-798b-4fbf-8d0b-450737b7c5e3)
+
 This three-tier architecture promotes separation of concerns, making the application more modular and maintainable. It allows for scalability and flexibility, as changes in one layer do not necessarily impact the others. Additionally, it enhances security by controlling access to the database and encapsulating business logic.
 WORKING FLOW OF SIS MODEL:
 
