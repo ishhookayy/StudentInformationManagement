@@ -9,13 +9,15 @@ ARCHITECTHURE:
 
 •	Client (Presentation Layer):
 
-o	The client layer represents the user interface or the part of the application that users interact with directly. In the context of your SIS project, this could include web pages, forms, and user interfaces through which students, instructors, and administrators interact with the system.
+	The client layer represents the user interface or the part of the application that users interact with directly. In the context of your SIS project, this could include web pages, forms, and user interfaces through which students, instructors, and administrators interact with the system.
+
 •	Local Host (Business Layer):
 
-o	The local host layer is often referred to as the business logic layer. It is responsible for handling the core functionality and business logic of the application. In your SIS project, this layer would contain the code that manages student records, course enrollment, attendance tracking, grading, and other essential operations. It processes requests from the client layer and interacts with the database layer for data retrieval and storage.
+	The local host layer is often referred to as the business logic layer. It is responsible for handling the core functionality and business logic of the application. In your SIS project, this layer would contain the code that manages student records, course enrollment, attendance tracking, grading, and other essential operations. It processes requests from the client layer and interacts with the database layer for data retrieval and storage.
+
 •	Database (Data Access Layer):
 
-o	The database layer serves as the data access layer and is responsible for managing the storage, retrieval, and manipulation of data. In your SIS project, you mentioned using the JDBC driver, which connects your application to the database (e.g., PostgreSQL). This layer handles database interactions, including executing SQL queries, updating records, and ensuring data consistency and integrity.
+	The database layer serves as the data access layer and is responsible for managing the storage, retrieval, and manipulation of data. In your SIS project, you mentioned using the JDBC driver, which connects your application to the database (e.g., PostgreSQL). This layer handles database interactions, including executing SQL queries, updating records, and ensuring data consistency and integrity.
 
 ![CLOUD](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/01687ed3-798b-4fbf-8d0b-450737b7c5e3)
 
@@ -26,20 +28,22 @@ WORKING FLOW OF SIS MODEL:
 
 •	MODEL:
 
-o	The Model represents the application's data and business logic. It is responsible for managing data and the interactions with the database.
-o	In the context of working with a database, the Model typically includes classes and functions for data access, validation, and manipulation.
-o	It communicates with the database using technologies like JDBC (Java Database Connectivity) in Java-based applications.
+	The Model represents the application's data and business logic. It is responsible for managing data and the interactions with the database.
+	In the context of working with a database, the Model typically includes classes and functions for data access, validation, and manipulation.
+	It communicates with the database using technologies like JDBC (Java Database Connectivity) in Java-based applications.
+
 •	VIEW:
 
-o	The View is responsible for presenting data to the user and handling user interfaces such as HTML templates, forms, and UI components.
-o	It does not directly communicate with the database but rather receives data from the Controller or the Model and renders it for the user to see.
-o	In web applications, HTML templates or web pages represent the View.
+	The View is responsible for presenting data to the user and handling user interfaces such as HTML templates, forms, and UI components.
+	It does not directly communicate with the database but rather receives data from the Controller or the Model and renders it for the user to see.
+	In web applications, HTML templates or web pages represent the View.
+
 •	CONTROLLER:
 
-o	The Controller is the intermediary between the Model and the View. It handles user input and decides how to respond.
-o	When a user interacts with the application (e.g., submits a form), the Controller receives the input from the View.
-o	The Controller may validate the input, interact with the Model to retrieve or update data in the database, and then instruct the View to display the appropriate response.
-o	It is responsible for managing the flow of data and controlling the overall behavior of the application.
+	The Controller is the intermediary between the Model and the View. It handles user input and decides how to respond.
+	When a user interacts with the application (e.g., submits a form), the Controller receives the input from the View.
+	The Controller may validate the input, interact with the Model to retrieve or update data in the database, and then instruct the View to display the appropriate response.
+	It is responsible for managing the flow of data and controlling the overall behavior of the application.
 
 Here's how the MVC architecture works in a typical flow:
 
