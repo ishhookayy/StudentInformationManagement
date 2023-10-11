@@ -50,3 +50,45 @@ o	Once the Model has processed the data and performed the required operations, i
 o	The Controller selects the appropriate View to render the response. It passes the data received from the Model to the View for rendering.
 o	The View takes the data and generates the user interface, which is then presented to the user.
 o	The user can interact further with the application, and the cycle continues as needed.
+
+ER-DIAGRAM:
+
+•	The Student entity stores information about individual students, including their personal details and contact information.
+•	The Course entity represents the courses offered by the institution, containing attributes like course name and credit hours.
+•	The Instructor entity holds information about instructors who teach the courses, including their names and contact details.
+•	The Enrollment entity captures the relationship between students and courses they are enrolled in, along with the enrollment date.
+
+![sisfinal](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/35dd802e-a400-42a9-a08a-6cef84199d55)
+
+USER INTERFACE
+
+•	HTML has been used for developing the User Layout for the system
+•	JavaScript has been used for creating all the validations and client side scripting functionality
+•	CSS has been used for designing the web pages of the system
+
+HARDWARE REQUIREMENT:
+
+•	Processor        :  Intel Pentium 4 or more
+•	Ram                 : 256 GB or more
+•	Cache              : 1 MB
+•	Hard Disk        :  10 GB or more
+
+SOFTWARE INTERFACE:
+
+•	Client on Internet: Web Browser, Operating System (any)
+•	Web Server: Operating System (any), Apache 2
+•	Database: Psql
+•	Scripting Language: JSP, JavaScript, Servlet
+
+COMMUNICATION PROTOCOL
+
+Following protocols are required to be permitted on the server side HTTP incoming request.
+
+FUNCTIONAL REQUIREMENTS
+
+•	The system runs of apache server so it is needed that server must have apache server version 2.0 available.
+•	We have used JSP for server side scripting so the current version of JSP must be available on the server
+•	PSQL database has been used for storing the data of the website
+•	HTML has been used for creating the layout of the web application
+•	CSS has been used for creating the designing of the webpages
+•	JavaScript scripting language has been implemented on the system for performing all of the Client Side Server Validation.
