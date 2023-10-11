@@ -111,3 +111,17 @@ CLASSES AND OBJECT:
 •	StudentServlet.java-A Java servlet that handles AJAX requests for student details. It fetches student information from the database and returns it as JSON.
 •	CourseServlet.java-A Java servlet that handles AJAX requests for course details. It retrieves course information from the database and returns it as JSON.
 
+LOGIN PAGE
+![LOGINPAGE](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/9df3bcf2-eb74-43bd-a08b-9bad7f59e7a7)
+STUDENT – INTERFACE: 
+![STUDENTDETAILSupdated](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/d524499e-2aec-492b-9a9c-26854e41148e)
+COURSE – INTERFACE:
+![COURSEPAGEupdated](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/0f27b529-6321-4fca-bdbf-b5e021802053)
+
+![enroll_in](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/3ed0a908-d41e-4608-9707-e7f9bcd75134)
+
+![enroll_in_sucessfull](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/aa68eeea-c886-464e-9905-54f4f7a73dc6)
+INSTRUCTOR-DETAILS:
+![instructorcoursedetails](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/918f659d-103b-4e11-a120-46530ecdf05e)
+INSTRUCTOR-COURSE-DETAILS:
+![instructordetails](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/f34d40e8-ff59-4dc1-bd9a-cd1342905b65)
