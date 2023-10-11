@@ -90,9 +90,23 @@ Following protocols are required to be permitted on the server side HTTP incomin
 
 FUNCTIONAL REQUIREMENTS
 
-•	The system runs of apache server so it is needed that server must have apache server version 2.0 available.
-•	We have used JSP for server side scripting so the current version of JSP must be available on the server
-•	PSQL database has been used for storing the data of the website
-•	HTML has been used for creating the layout of the web application
-•	CSS has been used for creating the designing of the webpages
-•	JavaScript scripting language has been implemented on the system for performing all of the Client Side Server Validation.
+	The system runs of apache server so it is needed that server must have apache server version 2.0 available.
+	We have used JSP for server side scripting so the current version of JSP must be available on the server
+	PSQL database has been used for storing the data of the website
+ 	HTML has been used for creating the layout of the web application
+	CSS has been used for creating the designing of the webpages
+	JavaScript scripting language has been implemented on the system for performing all of the Client Side Server Validation.
+
+CLASSES AND OBJECT:
+
+
+•	Login.jsp -Used for performing HTML rendering for the login page.
+•	Student.jsp -Used for rendering the student interface and displaying student and course details.
+•	Instructor.jsp-Used for rendering the instructor interface and providing access to instructor-specific functionalities.
+•	LoginDao.java-Handles database operations for user authentication, including verifying student and instructor login credentials.
+•	StudentDao.java-Manages database operations related to student data, such as retrieving student details and course information.
+•	Login.java-A Java servlet responsible for handling user login requests, verifying credentials, and redirecting users to the appropriate interface (student or instructor).
+•	Logout.java-A Java servlet handling user logout requests, invalidating user sessions, and redirecting users to the login page.
+•	StudentServlet.java-A Java servlet that handles AJAX requests for student details. It fetches student information from the database and returns it as JSON.
+•	CourseServlet.java-A Java servlet that handles AJAX requests for course details. It retrieves course information from the database and returns it as JSON.
+
