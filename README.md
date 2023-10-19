@@ -81,17 +81,17 @@ Ensure that the following protocols are permitted on the server side for incomin
 
 ## Screenshots
 
-- Login Page
+### Login Page
 ![Login Page](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/9df3bcf2-eb74-43bd-a08b-9bad7f59e7a7)
 
-- Student Interface
+### Student Interface
 ![Student Interface](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/d524499e-2aec-492b-9a9c-26854e41148e)
 
-- Course Interface
+### Course Interface
 ![Course Interface](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/0f27b529-6321-4fca-bdbf-b5e021802053)
 
-- Instructor Details
+### Instructor Details
 ![Instructor Details](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/918f659d-103b-4e11-a120-46530ecdf05e)
 
-- Instructor Course Details
+### Instructor Course Details
 ![Instructor Course Details](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/f34d40e8-ff59-4dc1-bd9a-cd1342905b65)
