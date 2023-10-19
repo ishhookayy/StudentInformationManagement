@@ -1,6 +1,6 @@
 # Student Information Management System (SIS)
 
-![SIS Icon](./IMAGES/SIS ICON.png)
+![SIS Icon](./IMAGES/SISicon.png)
 
 ## Abstract
 
