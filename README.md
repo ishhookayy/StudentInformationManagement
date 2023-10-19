@@ -8,19 +8,19 @@ The Student Information System (SIS) is a modern digital solution designed to im
 
 ## Architecture
 
-![System Architecture](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/3f7dabea-ae08-4e47-a274-713fa935ab76)
+![System Architecture](./IMAGES/ARCHITECTURE.png)
 
 - **Client (Presentation Layer):** The user interface for students, instructors, and administrators.
 - **Local Host (Business Layer):** Handles core functionality and business logic.
 - **Database (Data Access Layer):** Manages data storage, retrieval, and manipulation.
 
-![Cloud Architecture](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/01687ed3-798b-4fbf-8d0b-450737b7c5e3)
+![Cloud Architecture](./IMAGES/CLOUD.png)
 
 This three-tier architecture promotes modularity, scalability, flexibility, and security.
 
 ## System Workflow (MVC)
 
-![MVC Workflow](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/cbdb4524-1c61-44e3-a19b-36be686edf9d)
+![MVC Workflow](./IMAGES/mvc.png)
 
 - **Model:** Manages data and database interactions.
 - **View:** Presents data to the user.
@@ -28,7 +28,7 @@ This three-tier architecture promotes modularity, scalability, flexibility, and 
 
 ## ER Diagram
 
-![ER Diagram](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/35dd802e-a400-42a9-a08a-6cef84199d55)
+![ER Diagram](./IMAGES/sisfinal.jpg)
 
 - **Student:** Stores personal details and contact information.
 - **Course:** Represents course information.
