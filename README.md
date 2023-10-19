@@ -1,6 +1,6 @@
 # Student Information Management System (SIS)
 
-![SIS Icon](https://github.com/ishhookayy/StudentInformationManagement/assets/138235393/2e19945e-9b2c-41df-9914-26bda0642dc1)
+![SIS Icon](./IMAGES/SIS ICON.png)
 
 ## Abstract
 
