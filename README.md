@@ -1,8 +1,9 @@
+# Student Information Management System (SIS)
 <p align="center">
   <img src="./IMAGES/SISicon.png" alt="SIS Logo" width="100">
 </p>
 
-# Student Information Management System (SIS)
+
 
 
 Welcome to the Student Information Management System (SIS)! This modern digital solution is designed to enhance student data management and communication within educational institutions.
