@@ -1,5 +1,4 @@
-@@ -1,124 +1,29 @@
-# Student Information Management System (SIS)	This is a Next.js project bootstrapped with create-next-app.
+# Student Information Management System (SIS)
 <p align="center">	
   <img src="./IMAGES/SISicon.png" alt="SIS Logo" width="100">	
 </p>	
