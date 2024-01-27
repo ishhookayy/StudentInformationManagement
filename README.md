@@ -1,29 +1,125 @@
-This is a Next.js project bootstrapped with create-next-app.
+@@ -1,124 +1,29 @@
+# Student Information Management System (SIS)	This is a Next.js project bootstrapped with create-next-app.
+<p align="center">	
+  <img src="./IMAGES/SISicon.png" alt="SIS Logo" width="100">	
+</p>	
 
-Getting Started
-First, run the development server:
 
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-Open http://localhost:3000 with your browser to see the result.
+Welcome to the Student Information Management System (SIS)! This modern digital solution is designed to enhance student data management and communication within educational institutions.	This project uses next/font to automatically optimize and load Inter, a custom Google Font.
 
-You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-This project uses next/font to automatically optimize and load Inter, a custom Google Font.
+## Table of Contents
+- [About SIS](#about-sis)	
+- [Architecture](#architecture)	
+- [System Workflow (MVC)](#system-workflow-mvc)	
+- [ER Diagram](#er-diagram)	
+- [User Interface](#user-interface)	
+- [Requirements](#requirements)	
+- [Functional Requirements](#functional-requirements)	
+- [Classes and Objects](#classes-and-objects)	
+- [Screenshots](#screenshots)	
 
-Learn More
-To learn more about Next.js, take a look at the following resources:
 
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
 
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+The **Student Information System (SIS)** is more than just a software application; it's a bridge to success in educational institutions. With SIS, we centralize student records, manage courses, and provide a seamless experience for administrators, instructors, and students. The system is designed to:
 
-Check out our Next.js deployment documentation for more details.
+
+- Store and manage student records efficiently.	
+- Streamline course management.	
+- Offer real-time updates.	
+- Simplify attendance tracking.	
+- Serve as a communication hub for all stakeholders.	
+
+## Architecture	
+
+![System Architecture](./IMAGES/ARCHITECTURE.png)	
+
+SIS follows a three-tier architecture:	
+
+- **Client (Presentation Layer):** The user interface for students, instructors, and administrators.	
+- **Local Host (Business Layer):** Handles core functionality and business logic.	
+- **Database (Data Access Layer):** Manages data storage, retrieval, and manipulation.	
+
+![Cloud Architecture](./IMAGES/CLOUD.png)	
+
+This architecture promotes modularity, scalability, flexibility, and security.	
+
+## System Workflow (MVC)	
+
+![MVC Workflow](./IMAGES/mvc.png)	
+
+SIS implements the Model-View-Controller (MVC) design pattern:	
+
+- **Model:** Manages data and database interactions.	
+- **View:** Presents data to the user.	
+- **Controller:** Handles user input and application behavior.	
+
+## ER Diagram	
+
+![ER Diagram](./IMAGES/sisfinal.jpg)	
+
+The ER Diagram represents the key entities:	
+
+- **Student:** Stores personal details and contact information.	
+- **Course:** Represents course information.	
+- **Instructor:** Contains instructor details.	
+- **Enrollment:** Captures student-course relationships and enrollment dates.	
+
+## User Interface	
+
+- **HTML:** Used for the user interface layout.	
+- **JavaScript:** Handles client-side scripting and validation.	
+- **CSS:** Defines web page design.	
+
+## Requirements	
+
+### Hardware Requirements	
+
+- Processor: Intel Pentium 4 or higher.	
+- RAM: 2 GB or more.	
+- Cache: 1 MB.	
+- Hard Disk: 10 GB or more.	
+
+### Software Interface	
+
+- **Client on Internet:** Web Browser, Operating System (any).	
+- **Web Server:** Operating System (any), Apache 2.	
+- **Database:** PostgreSQL.	
+- **Scripting Language:** JSP, JavaScript, Servlet.	
+
+## Functional Requirements	
+
+- The server must have Apache server version 2.0 available.	
+- Ensure the current version of JSP is installed on the server.	
+- SIS uses PostgreSQL for data storage.	
+- HTML and CSS are used for layout and design.	
+- JavaScript is employed for client-side validation.	
+
+## Classes and Objects	
+
+- `Login.jsp`: HTML rendering for the login page.	
+- `Student.jsp`: Interface for students and course details.	
+- `Instructor.jsp`: Interface for instructors.	
+- `LoginDao.java`: Handles user authentication.	
+- `StudentDao.java`: Manages student data.	
+- `Login.java`: Handles user login and redirects.	
+- `Logout.java`: Manages user logout.	
+- `StudentServlet.java`: Handles AJAX requests for student details.	
+- `CourseServlet.java`: Handles AJAX requests for course details.	
+
+## Screenshots	
+
+### Login Page	
+![Login Page](./IMAGES/LOGINPAGE.png)	
+
+### Student Interface	
+![Student Interface](./IMAGES/STUDENTDETAILSupdated.png)	
+
+### Course Interface	
+![Course Interface](./IMAGES/COURSEPAGEupdated.png)	
+
+### Instructor Details	
+![Instructor Details](./IMAGES/instructordetails.png)	
+
+### Instructor Course Details	
+![Instructor Course Details](./IMAGES/instructorcoursedetails.png)
