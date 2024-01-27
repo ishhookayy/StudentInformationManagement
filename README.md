@@ -14,9 +14,8 @@ Welcome to the Student Information Management System (SIS)! This modern digital 
 - [Requirements](#requirements)	
 - [Functional Requirements](#functional-requirements)	
 - [Classes and Objects](#classes-and-objects)	
-- [Screenshots](#screenshots)	
-
-...
+- [Screenshots](#screenshots)
+- [Running the Project](#running-the-project)
 
 ## About SIS
 
@@ -122,5 +121,20 @@ The ER Diagram represents the key entities:
 ### Instructor Course Details
 ![Instructor Course Details](./IMAGES/instructorcoursedetails.png)
 
-...
+## Running the Project
+
+To run the project, follow these step-by-step instructions:
+
+### 1. Download Apache Tomcat Server:
+
+- Download Apache Tomcat Server from the [official website](http://tomcat.apache.org/download-<version>.cgi).
+- Extract the downloaded ZIP file to a preferred location on your machine.
+
+### 2. Copy Project Files to Tomcat's Webapps Directory:
+
+Copy the project files to the Tomcat's webapps directory:
+
+```bash
+cp -r path/to/StudentInformationManagement/* path/to/tomcat/webapps/
+
 
