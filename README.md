@@ -127,23 +127,28 @@ To run the project, follow these step-by-step instructions:
 
 ```bash
 # 1. Download Apache Tomcat Server:
-# - Download Apache Tomcat Server from the [official website](https://tomcat.apache.org/download-90.cgi).
-# - Extract the downloaded ZIP file to a preferred location on your machine.
+#    - Download Apache Tomcat Server from the [official website](https://tomcat.apache.org/download-90.cgi).
+#    - Extract the downloaded ZIP file to a preferred location on your machine.
 
 # 2. Copy Project Files to Tomcat's Webapps Directory:
-# Copy the project files to the Tomcat's webapps directory:
-cp -r path/to/StudentInformationManagement/* path/to/tomcat/webapps/
+#    - Copy the project files to the Tomcat's webapps directory:
+    ```bash
+    cp -r path/to/StudentInformationManagement/* path/to/tomcat/webapps/
+    ```
 
 # 3. Start Tomcat Server:
-# Navigate to the Tomcat bin directory and run:
-# On Unix/Linux
-./catalina.sh run
+#    - Navigate to the Tomcat bin directory and run:
+    ```bash
+    # On Unix/Linux
+    ./catalina.sh run
 
-# On Windows
-catalina.bat run
+    # On Windows
+    catalina.bat run
+    ```
 
 # 4. Open the Project in a Web Browser:
-# Open a web browser and navigate to http://localhost:8080/StudentInformationManagement/Login.jsp.
+#    - Open a web browser and navigate to http://localhost:8080/StudentInformationManagement/Login.jsp.
+
 
 
 
